@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: white;
-  font-family: "Avant Garde", Arial, cursive;
+  font-family:  "Baloo Da", "Baloo", "Avant Garde", Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -207,8 +207,8 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 4em;
-		font-weight: bolder;
+    font-size: 4.5em;
+		font-weight: normal;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
