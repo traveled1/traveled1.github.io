@@ -305,6 +305,9 @@ section h3.section-subheading {
     padding: 150px 0;
   }
 }
+#services {
+	background-color: #F9F9F9;
+}
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -564,8 +567,11 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
-aside.clients img {
+.clients img {
   margin: 50px auto;
+}
+.clients {
+	background-color: white;
 }
 section#contact {
   background-color: #222222;
