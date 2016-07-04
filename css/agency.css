@@ -319,6 +319,9 @@ section h3.section-subheading {
 	text-align: left;
 	margin-bottom: 5px;
 }
+.img-logo {
+	max-height: 80px;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
