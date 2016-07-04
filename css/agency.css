@@ -259,8 +259,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 300px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -276,9 +276,14 @@ header .intro-text .intro-heading {
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
-    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-bottom: 40px;
   }
 }
+.btn-tell-me-more {
+	margin-top: 20px;
+}
+
 section {
   padding: 100px 0;
 }
@@ -303,6 +308,9 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+.service-row {
+	margin-bottom: 30px;
 }
 .bullet-item {
 	text-align: left;
