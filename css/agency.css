@@ -55,6 +55,9 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+.text-white {
+	color: white;
+}
 .btn-primary {
   color: white;
   background-color: #fed136;
@@ -587,6 +590,9 @@ section#contact .section-heading {
 }
 section#contact .form-group {
   margin-bottom: 25px;
+}
+section#contact .contact-heading {
+	margin-bottom: 80px;
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
