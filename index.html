@@ -94,10 +94,12 @@
                 </div>
             </div>
             <div class="row text-center service-row">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-6 ">
+                    <span class="fa-stack fa-4x accordion">
+                    	<a href="#" class="anything" rel="anything">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-institution fa-stack-1x fa-inverse"></i>
+                        </a>
                     </span>
                     <h4 class="service-heading">Interim Tech Leadership</h4>
                     <ul>
@@ -107,8 +109,8 @@
                     <li class="text-muted bullet-item">Support fundraising effort</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-6 ">
+                    <span class="fa-stack fa-4x accordion">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
                     </span>
@@ -120,8 +122,8 @@
                 </div>
             </div>
             <div class="row text-center service-row">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-6 ">
+                    <span class="fa-stack fa-4x accordion">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-check-square-o fa-stack-1x fa-inverse"></i>
                     </span>
@@ -133,8 +135,8 @@
                     <li class="text-muted bullet-item">Review level of documentation and identify knowledge ‘silos’</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-6 ">
+                    <span class="fa-stack fa-4x accordion">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-road fa-stack-1x fa-inverse"></i>
                     </span>
@@ -146,8 +148,8 @@
                 </div>
             </div>
             <div class="row text-center service-row">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-6 ">
+                    <span class="fa-stack fa-4x accordion">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-group fa-stack-1x fa-inverse"></i>
                     </span>
@@ -157,8 +159,8 @@
                     <li class="text-muted bullet-item">Set up effective and repeatable hiring processes and support structure</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-6 ">
+                    <span class="fa-stack fa-4x accordion">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
                     </span>
@@ -170,8 +172,8 @@
                 </div>
                </div>
             <div class="row text-center service-row">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
+                <div class="col-md-6 ">
+                    <span class="fa-stack fa-4x accordion">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
                     </span>
@@ -503,6 +505,7 @@
             </div>
         </div>
     </div>
+    
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -519,6 +522,18 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+    
+    <!-- Accordion JavaScript -->
+    <script>
+	jQuery(function ($) {
+    	$('.accordion').hover(function () {
+        	$(this).parent().find('ul').stop(true, true).slideDown()
+    	}, function () {
+        	$(this).parent().find('ul').stop(true, true).slideUp()
+    	}).parent().find('ul').hide()
+	})
+    </script> 
+    
 
 </body>
 
