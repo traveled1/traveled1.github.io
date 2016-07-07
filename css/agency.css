@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Montserrat", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 4.5em;
+    font-size: 5em;
 		font-weight: normal;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -246,7 +246,7 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat","Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -256,7 +256,7 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 50px;
   margin-bottom: 25px;
 }
@@ -266,7 +266,7 @@ header .intro-text .intro-heading {
     padding-bottom: 300px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat","Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 24px;
     line-height: 10px;
@@ -277,7 +277,7 @@ header .intro-text .intro-heading {
     font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 46px;
     line-height: 60px;
     margin-top: -20px;
     margin-bottom: 40px;
@@ -297,7 +297,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 24px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat","Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -321,6 +321,7 @@ section h3.section-subheading {
 .bullet-item {
 	text-align: left;
 	margin-bottom: 5px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .img-logo {
 	max-height: 80px;
